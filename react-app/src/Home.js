@@ -139,7 +139,7 @@ const Home = () => {
             </div>
             <div id="lower">
               <input
-              className="askME"
+                className="askME"
                 placeholder="Ask me"
                 value={question}
                 onChange={(e) => setQuestion(e.target.value)}
@@ -151,7 +151,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      
     </div>
   );
 };
